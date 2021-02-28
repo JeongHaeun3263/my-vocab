@@ -1,8 +1,9 @@
 import react from 'react';
 import './app.css';
+import Vocab from './components/vocab/vocab';
 
 function App() {
-	return <h1>Hello😃</h1>;
+	return <Vocab />;
 }
 
 export default App;

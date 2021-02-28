@@ -1,0 +1,36 @@
+button {
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	font-size: 2rem;
+	background: transparent;
+	margin: 0 0.1em;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+.vocab {
+	font-size: 2rem;
+	padding: 0.5em;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.word {
+}
+
+.meaning {
+}
+
+.complete {
+	color: blue;
+}
+
+.delete {
+	color: red;
+}
